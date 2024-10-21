@@ -23,9 +23,13 @@ Desde anotações em bloco de notas, até mesmo agendas digitais, a organizaçã
 
 - O Microsoft OneNote é um programa de computador para o recolhimento de informação de forma livre e colaboração multiusuário. Ele recolhe as notas do usuário (manuscritas ou digitadas), desenhos, recortes de tela e comentários de áudio. As notas podem ser compartilhadas com outros usuários do OneNote através da internet ou por uma rede.
 
+![microsoft-onenote-embrasolutions-1024x576.webp][def2]
+
 3. **Obsidian**
 
 - Obsidian é um aplicativo de anotações em arquivos que utilizam a linguagem Markdown e se destinam à formação de uma base pessoal de conhecimentos. Ele permite que os usuários façam links internos entre anotações e depois visualizem as conexões como um gráfico. Ele é projetado para ajudar os usuários a organizar e estruturar pensamento e conhecimentos de maneira flexível e não linear. O software é gratuito para uso pessoal, com licenças comerciais disponíveis mediante pagamento.
+
+![Capturar.JPG][def3]
 
 ## 2 - Matriz de Eisenhower
 
@@ -202,3 +206,5 @@ Forneça informações de contato para que os usuários possam tirar dúvidas ou
 
 
 [def]: https://github.com/Norfanexe/Img/blob/main/pngwing.com.png
+[def2]: https://github.com/Norfanexe/Img/blob/main/microsoft-onenote-embrasolutions-1024x576.webp
+[def3]: https://github.com/Norfanexe/Img/blob/main/Capturar.JPG
