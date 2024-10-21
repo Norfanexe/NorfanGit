@@ -16,7 +16,8 @@ Desde anotações em bloco de notas, até mesmo agendas digitais, a organizaçã
 1. **Notion**
 
 - Notion é um aplicativo da web freemium para produtividade e anotações desenvolvido pela Notion Labs Inc. Ele oferece ferramentas organizacionais, incluindo gerenciamento de tarefas, rastreamento de projetos, listas de tarefas e marcadores . Recursos off-line adicionais são oferecidos por aplicativos de desktop e móveis disponíveis para Windows, macOS, Android e iOS . Os usuários podem criar modelos personalizados, incorporar vídeos e conteúdo da web e colaborar com outras pessoas em tempo real.
-!.[pngwing.com].(https://github.com/Norfanexe/Img/blob/main/pngwing.com.png)
+
+![pngwing.com][def]
 
 2. **Microsoft OneNote**
 
@@ -198,3 +199,6 @@ Forneça informações de contato para que os usuários possam tirar dúvidas ou
 - **FAQ**: Inclua uma seção de Perguntas Frequentes (FAQ) para abordar dúvidas comuns.
 
 - **Incentive feedback**: Incentive os usuários a fornecerem feedback e sugestões para melhorias.
+
+
+[def]: https://github.com/Norfanexe/Img/blob/main/pngwing.com.png
