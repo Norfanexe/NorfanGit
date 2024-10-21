@@ -2,9 +2,9 @@
 
 ## CONTEÚDO
 
-* Organização
-* Git e Gitlab
-* ReadMe
+* 1 - Organização
+* 2 - Git e Gitlab
+* 3 - ReadMe
 
 # 1 - Organização
 
@@ -48,7 +48,7 @@ a matriz é representada em um plano cartesiano e categoriza as atividades em qu
 
    - Tarefas que podem ser evitadas ou realizadas apenas quando todas as outras tarefas mais importantes forem concluídas.
 
-# 3 - Git e Gitlab
+# 2 - Git e Gitlab
 
 ## Requisitos
 
@@ -115,17 +115,85 @@ a imagem abaixo demonstra na prática este processo entre transferência da máq
 Para realizarmos a transferência dos arquivos que mantemos na `staring area` diretamente para o `repositório online`, devemos criar um novo `repositório` dentro do `git hub`.
 De forma prática, após criar a sua `conta`, basta clicar dentro do seu perfil em `repositórios` e em seguida, `new`. Conforme na imagem, basta preencher os campos para criar o `repositório`
 
-## Após a criação do projeto e repositório
-Com o `projeto` e o `repositório`repositório criado, será demonstrado abaixo os principais conceitos e comandos utilizados
+## Começar a gerenciar o repositório remoto com o comando Git remote e Git push
 
-* Criar uma nova pasta no PC pra isso chamada `Git Tutorial`
+* A partir do momento que criamos o `repositório online`, podemos transferir aqueles arquivos na `staging area` realizando o comando `Git remote`
 
-* Abrir o VSCode nessa pasta
-
-* Criar um novo arquivo `README.md`
-
-## Comandos utilizados neste documento
-- `git --version`: checa a versão de instação do git na sua máquina.
     ```sh
-    git --version
+    git remote add origin <inserir o link aqui>
     ```
+
+* por fim, realizar o comando `Git push` para enviar as alterações feitas no `repositório local` para o `repositório online`
+
+    ```sh
+    git push -u origin main
+    ```
+
+    Vale ressaltar, que uma vez executado o comando git push, a conexão entre o projeto local e online já é feita, então, nos próximos versionamentos, basta realizar o mesmo comando, 
+    porém, apenas retirando o `-u` do comando.
+
+## Após a criação do projeto e repositório online
+Com o `projeto` e o `repositório`repositório criado, podemos daqui em diante gerenciar qualquer atualização e versionar elas do `repositório local` ao `repositório online`
+
+## README
+
+README é um documento que fornece informações importantes sobre um projeto. Ele geralmente é escrito em Markdown (.md)
+
+## Estrutura de um README
+
+## Título
+
+Sessção para o titulo principal do projeto. O título deve ser claro e descritivo.
+
+## Descrição
+
+A descrição explica brevemente o que é o projeto e quais são os principais objetivos.
+
+## Índice
+
+Um índice ajuda os leitores a navegar pelo README. links para as diferentes seções do documento facilitam na navegação geral.
+
+* 1 - Título
+* 2 - Descrição
+* 3 - Índice
+* 4 - Instalação
+* 5 - Uso
+* 6 - Contribuição
+* 7 - Licença
+* 8 - Contato
+
+## Instalação
+
+Explica de forma didática como instalar e configurar o projeto. Incluindo se for necessário comandos de terminal.
+
+## Uso
+
+Descrever como usa o projeto, com exemplos de código e capturas de tela para facilitar o aprendizado da usabilidade geral da ferramenta.
+
+## Contribuição
+
+Explique como outros desenvolvedores podem contribuir para o projeto. Inclua diretrizes para pull requests e issues.
+
+## Licença
+
+Inclua a licença sob a qual o projeto está sendo distribuído. Isso é importante para esclarecer os direitos de uso e distribuição.
+
+## Contato
+
+Forneça informações de contato para que os usuários possam tirar dúvidas ou fornecer feedback.
+
+## Recursos Extras e Úteis para um README
+
+- **Seja claro e conciso**: Evite jargões técnicos desnecessários.
+
+- **Use exemplos**: Exemplos de código e capturas de tela ajudam a ilustrar o uso do projeto.
+
+- **Mantenha atualizado**: Atualize o README sempre que fizer mudanças significativas no projeto.
+
+- **Peça feedback**: Incentive os leitores a deixar comentários e sugestões.
+
+- **Links Úteis**: Adicione links para documentação adicional, tutoriais, ou recursos externos que possam ser úteis.
+
+- **FAQ**: Inclua uma seção de Perguntas Frequentes (FAQ) para abordar dúvidas comuns.
+
+- **Incentive feedback**: Incentive os usuários a fornecerem feedback e sugestões para melhorias.
