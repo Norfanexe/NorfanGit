@@ -110,9 +110,9 @@ a imagem abaixo demonstra na prática este processo entre transferência da máq
     git commit -m "descrição das mudanças realizadas"
     ```
 
-## Criando o repositório no GitHub
+## Criando o repositório Online
 
-Para realizarmos a transferência dos arquivos que mantemos na `staring area` diretamente para o `repositório online`, devemos criar um novo `repositório` dentro do `git hub`.
+Para realizarmos a transferência dos arquivos que mantemos na `staring area` diretamente para o `repositório online`, devemos criar um novo `repositório` dentro do `git Lab`.
 De forma prática, após criar a sua `conta`, basta clicar dentro do seu perfil em `repositórios` e em seguida, `new`. Conforme na imagem, basta preencher os campos para criar o `repositório`
 
 ## Começar a gerenciar o repositório remoto com o comando Git remote e Git push
@@ -129,21 +129,99 @@ De forma prática, após criar a sua `conta`, basta clicar dentro do seu perfil 
     git push -u origin main
     ```
 
-    Vale ressaltar, que uma vez executado o comando git push, a conexão entre o projeto local e online já é feita, então, nos próximos versionamentos, basta realizar o mesmo comando, 
-    porém, apenas retirando o `-u` do comando.
+    Vale ressaltar, que uma vez executado o comando git push, a conexão entre o projeto local e online já é feita, então, nos próximos versionamentos, basta realizar o mesmo comando, porém, apenas retirando o `-u` do comando.
 
 ## Após a criação do projeto e repositório online
 Com o `projeto` e o `repositório`repositório criado, podemos daqui em diante gerenciar qualquer atualização e versionar elas do `repositório local` ao `repositório online`
 
-## README
+## Principais comandos utilizados no Github
 
-README é um documento que fornece informações importantes sobre um projeto. Ele geralmente é escrito em Markdown (.md)
+## Verificar a versão instalada do Git
+```sh
+git --version
+```
+Exemplo de saída: `git version 2.34.1`
+
+## Inicialização do Repositório
+```sh
+git init
+```
+Exemplo: Inicializa um repositório Git vazio na pasta atual.
+
+## Adição de Arquivos
+```sh
+git add <arquivo>
+```
+Exemplo: `git add README.md` - Adiciona o arquivo README.md à área de staging.
+
+```sh
+git add .
+```
+Exemplo: Adiciona todos os arquivos modificados à área de staging.
+
+## Commit de Arquivos
+```sh
+git commit -m "mensagem"
+```
+Exemplo: `git commit -m "Adiciona arquivo README"` - Cria um commit com a mensagem “Adiciona arquivo README”.
+
+## Renomeação da Branch Principal
+```sh
+git branch -M main
+```
+Exemplo: Renomeia a branch principal de “master” para “main”.
+
+## Conexão com o Repositório Remoto
+```sh
+git remote add origin <URL>
+```
+Exemplo: `git remote add origin https://github.com/usuario/repo.git` - Adiciona o repositório remoto com a URL especificada.
+
+## Envio de Arquivos para o Repositório Remoto
+```sh
+git push -u origin main
+```
+Exemplo: Envia os commits da branch “main” para o repositório remoto.
+
+## Criar e Gerenciar Branches
+```sh
+git branch
+```
+Exemplo: `git branch nova-feature` - Cria uma nova branch chamada “nova-feature”.
+
+## Mudar de Branch ou Restaurar Arquivos
+```sh
+git checkout <branch>
+```
+Exemplo: `git checkout nova-feature` - Muda para a branch “nova-feature”.
+
+## Combinar Branches
+```sh
+git merge <branch>
+```
+Exemplo: `git merge nova-feature` - Combina a branch “nova-feature” com a branch atual.
+
+## Atualizar o Repositório Local com Mudanças do Repositório Remoto
+```sh
+git pull
+```
+Exemplo: Atualiza o repositório local com as mudanças do repositório remoto.
+
+## Visualizar o Histórico de Commits
+```sh
+git log
+```
+Exemplo: Mostra o histórico de commits do repositório.
+
+## 3 - README
+
+README é um documento que fornece informações importantes sobre um projeto, escrito em Markdown (.md)
 
 ## Estrutura de um README
 
 ## Título
 
-Sessção para o titulo principal do projeto. O título deve ser claro e descritivo.
+Seção para o titulo principal do projeto. O título deve ser claro e descritivo.
 
 ## Descrição
 
@@ -184,16 +262,14 @@ Forneça informações de contato para que os usuários possam tirar dúvidas ou
 
 ## Recursos Extras e Úteis para um README
 
-- **Seja claro e conciso**: Evite jargões técnicos desnecessários.
+- **claro e conciso**: Evitar jargões técnicos desnecessários.
 
-- **Use exemplos**: Exemplos de código e capturas de tela ajudam a ilustrar o uso do projeto.
+- **exemplos**: Exemplos de código e capturas de tela ajudam a ilustrar o uso do projeto.
 
-- **Mantenha atualizado**: Atualize o README sempre que fizer mudanças significativas no projeto.
+- **Manter atualizado**: Atualizar o README sempre que fizer mudanças significativas no projeto.
 
-- **Peça feedback**: Incentive os leitores a deixar comentários e sugestões.
+- **Links Úteis**: Adicionar links para documentação adicional, tutoriais, ou recursos externos que possam ser úteis.
 
-- **Links Úteis**: Adicione links para documentação adicional, tutoriais, ou recursos externos que possam ser úteis.
+- **FAQ**: Incluair uma seção de Perguntas Frequentes (FAQ) para abordar dúvidas comuns.
 
-- **FAQ**: Inclua uma seção de Perguntas Frequentes (FAQ) para abordar dúvidas comuns.
-
-- **Incentive feedback**: Incentive os usuários a fornecerem feedback e sugestões para melhorias.
+- **feedback**: Incentivar usuários a fornecerem feedback e sugestões para melhorias.
